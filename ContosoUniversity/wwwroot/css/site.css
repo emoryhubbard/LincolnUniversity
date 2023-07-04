@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+html {
+  font-size: 14px;
+  font-family: 'Roboto', sans-serif !important;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+.btn:focus, .btn:active:focus, .btn-link.nav-link:focus, .form-control:focus, .form-check-input:focus {
+  box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+    margin-bottom: 60px;
+    font-family: 'Roboto', sans-serif !important;
+    background-color: #77caff;
+}
+
+h1, h2, h3 {
+    font-family: "Raleway", sans-serif;
+}
+.header-navbar {
+    background-color: #002956;
+    /*color: #04e3ff !important;*/
+    color: #77caff;
+}
+.nav-link {
+    color: #77caff;
+}
+.navbar-brand {
+    color: #77caff;
+}
+header a {
+    color: #77caff !important;
+}
+header a:hover {
+        color: white !important;
+}
+a {
+    color: #002956 !important;
+    text-decoration: none !important;
+}
+    a:hover {
+        color: white !important;
+    }
+footer * {
+    color: #212529;
+}
+.border-top {
+    border-top: 1px solid #212529 !important;
+}
+.table {
+    border-color: #212529;
+}
